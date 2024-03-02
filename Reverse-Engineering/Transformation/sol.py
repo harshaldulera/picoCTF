@@ -1,4 +1,4 @@
-encoded = open('enc').read()
+encoded = open('enc', encoding='utf-8').read()
 flag = ""
 
 for i in range(0, len(encoded)):
